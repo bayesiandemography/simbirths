@@ -1,0 +1,20 @@
+
+#' Simulated data on age-specific birth rates, with distribution perturbed.
+#'
+#' Simulated birth rates for 5-year age groups, 30 regions, and 3 time periods,
+#' with rates in regions 25-30 during period 3 being drawn from a distribution
+#' with a different age-profile from other region-time combinations,
+#' but the same average level.
+#'
+#' The rates were obtained by taking age-specific fertility rates for
+#' New Zealand in 2006,  multiplying by random region and time effects,
+#' and then perturbing rates in regions 25-30 during period 3.
+#'
+#' @format  An array with dimensions \code{"age"}, \code{"region"},
+#' \code{"time"}, and \code{"iteration"}.
+#'
+#' @seealso The data are designed for use with \code{\link{sim.fem.popn}},
+#' \code{\link{sim.birth.rates.base}}, \code{\link{sim.birth.rates.level}},
+#' \code{\link{sim.birth.counts.base}}, \code{\link{sim.birth.counts.distn}},
+#' \code{\link{sim.birth.counts.level}}, and \code{\link{sim.birth.standard}}.
+"sim.birth.rates.distn"
