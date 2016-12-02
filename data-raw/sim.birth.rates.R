@@ -11,8 +11,8 @@ asfr.total <- c(0.02884,
                 0.01266)
 names(asfr.total) <- labels.age.groups
 
-asfr.maori <- c(0.07096,
-                0.15006,
+asfr.maori <- c(0.07096 * 1.5,
+                0.15006 * 1.25,
                 0.14334,
                 0.11120,
                 0.06033,
@@ -26,8 +26,8 @@ n.region <- n.region.base + n.region.perturbed
 n.time <- 3
 n.cell <- n.age * n.region * n.time
 n.iteration <- 100
-tau.region <- 0.05 ## standard deviation of region effect
-tau.time <- 0.05 ## standard deviation of time effect
+tau.region <- 0.1 ## standard deviation of region effect
+tau.time <- 0.1 ## standard deviation of time effect
 sigma <- 0.1 ## standard deviation of log theta
 
 age.effect.base <- log(asfr.total)
@@ -39,7 +39,7 @@ dimnames <- list(age = labels.age.groups,
                  region = paste("Region", seq_len(n.region)),
                  time = seq_len(n.time))
 dim <- unname(sapply(dimnames, length))
-nonstandard.reg <- paste("Region", seq(length = n.region.nonstandard, to = n.region))
+nonstandard.reg <- paste("Region", seq(length = n.region.perturbed, to = n.region))
 nonstandard.time <- n.time
 cell <- expand.grid(dimnames)
 non.standard.here <- cell$region %in% nonstandard.reg & cell$time == nonstandard.time
