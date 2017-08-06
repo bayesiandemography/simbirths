@@ -21,4 +21,3 @@ The data are designed for use with \code{\link{sim.fem.popn}},
 \code{\link{sim.birth.counts.distn}}, and \code{\link{sim.birth.counts.level}}.
 }
 \keyword{datasets}
-

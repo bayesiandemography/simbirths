@@ -1,7 +1,7 @@
 Package: simbirths
 Type: Package
 Title: Simulated Data on Births
-Version: 0.0.9000
+Version: 0.0.9001
 Depends: R (>= 3.0.1)
 Authors@R: c(
     person(given = "John",
@@ -17,6 +17,6 @@ Description: One hundred sets of simulated birth rates and
     age-profile and level are perturbed.
 License: CC0
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 URL: http://github.com/johnrbryant/simbirths
 BugReports: http://github.com/johnrbryant/simbirths/issues

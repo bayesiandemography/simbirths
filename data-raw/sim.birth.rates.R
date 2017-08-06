@@ -83,14 +83,14 @@ for (i in seq_len(n.iteration)) {
 dimnames.all <- c(dimnames,
                   list(iteration = seq_len(n.iteration)))
 sim.birth.rates.base <- array(unlist(ans.base),
-                             dim = sapply(dimnames.all, length),
-                             dimnames = dimnames.all)
+                              dim = sapply(dimnames.all, length),
+                              dimnames = dimnames.all)
 sim.birth.rates.distn <- array(unlist(ans.distn),
-                              dim = sapply(dimnames.all, length),
-                              dimnames = dimnames.all)
+                               dim = sapply(dimnames.all, length),
+                               dimnames = dimnames.all)
 sim.birth.rates.level <- array(unlist(ans.level),
-                              dim = sapply(dimnames.all, length),
-                              dimnames = dimnames.all)
+                               dim = sapply(dimnames.all, length),
+                               dimnames = dimnames.all)
 
 save(sim.birth.rates.base,
      file = "data/sim.birth.rates.base.rda",
