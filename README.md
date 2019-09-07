@@ -1,12 +1,26 @@
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # simbirths
 
-One hundred sets of simulated birth rates and
-birth counts, disaggregated by age, region, and time.  In addition
-to the base version, there are alternative versions in which the
-age-profile and level are perturbed.
+<!-- badges: start -->
 
-Install `simbirths` from github with:
-```{r, echo = FALSE}
-devtools::install_github("johnrbryant/simbirths")
+[![Travis build
+status](https://travis-ci.org/johnrbryant/demzero.svg?branch=master)](https://travis-ci.org/bayesiandemography/simbirths)
+[![Lifecycle
+status](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#stable)
+<!-- badges: end -->
+
+**simbirths** is an R package with simulated data on births. It contains
+two hundred sets of simulated birth rates and birth counts,
+disaggregated by age, region, and time. In addition to the base version,
+there are alternative versions in which the age-profile and level are
+perturbed.
+
+## Installation
+
+**simbirths** can be installed from GitHub with:
+
+``` r
+devtools::install_github("bayesiandemography/simbirths")
 ```

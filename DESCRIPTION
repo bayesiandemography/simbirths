@@ -1,22 +1,21 @@
 Package: simbirths
 Type: Package
 Title: Simulated Data on Births
-Version: 0.0.9001
+Version: 1.0.0
 Depends: R (>= 3.0.1)
 Authors@R: c(
     person(given = "John",
            family = "Bryant",
-	         email = "john.bryant@stats.govt.nz",
+	         email = "john@bayesiandemography.com",
 	         role = c("cre", "aut")),
     person(given = "Junni L.",
 	         family = "Zhang",
+		 email = "junni@bayesiandemography.com",
            role = "aut"))
-Description: One hundred sets of simulated birth rates and
+Description: Two hundred sets of simulated birth rates and
     birth counts, disaggregated by age, region, and time.  In addition
     to the base version, there are alternative versions in which the
     age-profile and level are perturbed.
-License: CC0
-LazyData: TRUE
-RoxygenNote: 6.0.1
-URL: http://github.com/johnrbryant/simbirths
-BugReports: http://github.com/johnrbryant/simbirths/issues
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 6.1.1
