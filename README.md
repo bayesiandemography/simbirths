@@ -9,7 +9,6 @@ output: github_document
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/johnrbryant/demzero.svg?branch=master)](https://travis-ci.org/bayesiandemography/simbirths)
-[![Lifecycle status](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#stable)
 <!-- badges: end -->
 
 
