@@ -8,7 +8,7 @@ output: github_document
 # simbirths
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/johnrbryant/demzero.svg?branch=master)](https://travis-ci.org/bayesiandemography/simbirths)
+[![Travis build status](https://travis-ci.com/johnrbryant/demzero.svg?branch=master)](https://travis-ci.com/bayesiandemography/simbirths)
 <!-- badges: end -->
 
 
